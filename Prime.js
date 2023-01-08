@@ -1,10 +1,10 @@
 function prime(num){
    let factor=0;
   for(let i=0;i<num;i++){
-    if(i%num==0){
+    if(num%i==0){
       factor++;
     }
-  }if(factor==0){
+  }if(factor==2){
     console.log("Yes")
   }else{
     console.log("No")
